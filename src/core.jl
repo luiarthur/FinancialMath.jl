@@ -25,3 +25,5 @@ function monthly_payment(goal::Real, annual_rate::Real; months::Integer=0,
   init_future = init * (1 + r) ^ months
   return (goal - init_future) / (geosum(1 + r, months) - 1)
 end
+
+hell() = 1
