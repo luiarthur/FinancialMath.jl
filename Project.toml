@@ -1,0 +1,10 @@
+name = "FinancialMath"
+uuid = "20bf640e-24de-4495-bb99-64771fa4a3d9"
+authors = ["Arthur Lui <luiarthur@gmail.com>"]
+version = "0.1.0"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
